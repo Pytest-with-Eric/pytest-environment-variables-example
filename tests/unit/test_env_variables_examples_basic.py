@@ -13,7 +13,7 @@ def test_load_env_vars() -> None:
     assert actual_response == expected_response
 
 
-def test_load_env_vars_ex1():
+def test_load_env_vars_override():
     """
     Using os.environ
     :return:
