@@ -117,5 +117,3 @@ dmypy.json
 *.idea
 
 *.pytest_cache
-tests/unit/pytest.ini
-*.ini
