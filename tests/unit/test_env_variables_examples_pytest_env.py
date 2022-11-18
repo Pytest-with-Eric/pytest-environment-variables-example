@@ -1,10 +1,10 @@
 from environment_variables_examples.core import load_env_vars
 
 
-def test_load_env_vars_using_pytest_env():
+def test_load_env_vars_using_pytest_env() -> None:
     """
     Using pytest_env and pytest.ini
-    :return:
+    :return: None
     """
     expected_response = "The API endpoint `www.test_api_endpoint.com` " \
                         "has been deployed to `dev2` in Account # `9876`"

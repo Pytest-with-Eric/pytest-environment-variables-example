@@ -13,10 +13,10 @@ def test_load_env_vars() -> None:
     assert actual_response == expected_response
 
 
-def test_load_env_vars_override():
+def test_load_env_vars_override() -> None:
     """
     Using os.environ
-    :return:
+    :return: None
     """
     os.environ["DEPLOYMENT_STAGE"] = "dev"
     os.environ["API_ENDPOINT"] = "https://api.TEST_URL1.com"
